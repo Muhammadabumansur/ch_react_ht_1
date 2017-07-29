@@ -1,0 +1,17 @@
+p {
+    margin: 0;
+    overflow: hidden;
+    transition: opacity 0.5s;
+}
+
+p.opened {
+    opacity: 1;
+}
+
+p.closed {
+    opacity: 0;
+}
+
+article {
+    margin-bottom: 30px;
+}
